@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 30px;
+}
+
+/* Full screen blurred background image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('https://wallpapercave.com/wp/wp4780152.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position: fixed;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+/* Center the form using Flexbox */
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Glass-effect form container */
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  position: fixed ;
+  
+}
+
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  /* Background Image Layer */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61703044-wikimedia-image.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9e54450ee35fa51f1e158e780761ca0e');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Overlay to center content */
+.overlay {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+    
+  .form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05); /* light transparent */
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  backdrop-filter: blur(8px);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ccc;
+  border-radius: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: rgba(0, 123, 255, 0.3);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(0, 123, 255, 0.6);
+}
+ h2{
+  text-align: center;
+  color: rgb(7, 132, 181);
+  margin-bottom: 20px;
+  font-size: 30px;
+  
+ }
+   .form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Optional: Glass effect */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  /* Optional: add border and shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+ .form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  
+
+}
+   input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  backdrop-filter: blur(8px);
+  box-sizing: border-box; /* Add this line */
+}
+
